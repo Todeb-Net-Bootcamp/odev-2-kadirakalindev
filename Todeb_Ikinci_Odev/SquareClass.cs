@@ -10,10 +10,12 @@ namespace Todeb_Ikinci_Odev
     {
         private int side;
 
+        //CONSTRUCTOR
         public SquareClass(int x = 0)
         {
             side = x;
         }
+        //ABSTRACT METOD OVERRİDE EDİLDİ
         public override int calculateArea()
         {
             Console.Write("Karenin Alanı: ");
