@@ -8,7 +8,6 @@ namespace Todeb_Ikinci_Odev
 {
     abstract class AbstractClass
     {
-        //OVERRİDE EDİLECEK METHOD
         public abstract int calculateArea();
 
         

@@ -11,7 +11,6 @@ namespace Todeb_Ikinci_Odev
         private string shapeName { get; set; }
         public string shapeCorner { get; set; }
 
-        //CONSTRUCTOR
         public EncapsulationClass(string shapeName, string shapeCorner)
         {
             this.shapeName = shapeName;
